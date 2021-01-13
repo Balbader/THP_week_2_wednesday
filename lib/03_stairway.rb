@@ -35,4 +35,3 @@ if answer == "d"
   nbr = rand(1..6).to_i
   check_prout(stairs)
 end
-
