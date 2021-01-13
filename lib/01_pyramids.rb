@@ -1,9 +1,9 @@
-def pyramid_reverse(n)
-  n.times do |i|
-    (2 * i + 1).times do
+def pyramid_reverse(nb)
+  (nb).times do |i|
+    (i).times do
       print " "
     end
-    (2 * n - 2 * i - 1).times do
+    (2 * nb - 2 * i - 1).times do
       print "#"
     end
     puts
